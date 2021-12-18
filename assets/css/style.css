@@ -1,29 +1,43 @@
-* {
+    /* 
+    The * is a wildcard which applies a base css to the whole page
+    */
+
+ *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*
+    The body element is receiving a background color
+ */
 body {
     background-color: #d9dcd6;
 }
-
+/*
+    The header class is padded 20px, and given a font-family, background color and a font color
+ */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/*
+    The h1 elemement inside of the header element is being displayed inline and the font-size being changed to 48px
+ */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/*
+    The header h1 element and seo font color is being changed
+ */
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/*
+    The header div element is having padding changed and being floated to the right, it's also given a font-family and font-size of 20px
+ */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -35,21 +49,29 @@ body {
 .header div ul {
     list-style-type: none;
 }
-
+/*
+    The list elements for the header div is being displayed inline and with a margin left
+ */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*
+    The anchor elements font color is being changed 
+ */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* 
+    The paragraph elements font-sizes are being changed
+*/
 p {
     font-size: 16px;
 }
-
+/* 
+    The hero class is being changed here to make it the biggest element on the screen 
+*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,17 +80,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* 
+    This class can be applied to float something to the left
+*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* 
+    This class can be applied to float something to the right
+*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* 
+    The content class' width, how it's displayed, and margin is being changed
+*/
 .content {
     width: 75%;
     display: inline-block;
@@ -85,12 +113,14 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* 
+    All of the classes that were included in the benefit part of the html were consolidated so that they were more easily
+    changed as most of these classes had the same exact css being applied to them
+*/
 .benefit-lead, .benefit-cost, .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
 
 
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
@@ -106,7 +136,10 @@ p {
     max-width: 150px;
 }
 
-
+/* 
+    All of the classes from the hero section can be consolidated as well because they have similar css 
+    and this will make it easier to make changes applying to all elements
+ */
 
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
