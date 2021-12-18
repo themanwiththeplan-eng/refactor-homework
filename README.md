@@ -8,3 +8,9 @@ some sort of project with me in the future it's important for them to be able to
 to say what is happening within the code is just as important as the code itself when working in a team environment and I felt this is what I really learned 
 when going through and refactoring this.
 
+The link below is to the active page:
+https://themanwiththeplan-eng.github.io/refactor-homework/
+
+The screenshot below is to show the operability of the web page:
+![Capture](https://user-images.githubusercontent.com/81837557/146629238-f6f2d51f-bfa6-4784-80dd-b0c0b40a3d35.PNG)
+![Capture1](https://user-images.githubusercontent.com/81837557/146629243-0c4306b0-cd95-4d1d-a6df-b33befbecb5e.PNG)
